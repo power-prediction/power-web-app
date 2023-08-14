@@ -1,0 +1,6 @@
+# config.toml
+
+[theme]
+primaryColor = "#A9BCF5"
+backgroundColor = "#F5F6CE"
+secondaryBackgroundColor = "#FFFF00"
