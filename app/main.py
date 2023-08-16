@@ -35,7 +35,7 @@ data = {"humidity":humidity,
 
 dataJson = json.dumps(data)
 # 입력된 데이터를 FastAPI 어플리케이션으로 post 요청
-pred = requests.post(url="http://localhost:8121/get_electricity_pricing/",data=dataJson)
+pred = requests.post(url="http://192.168.70.24:8121/get_power_use/",data=dataJson)
 
 st.write(f"예측된 전력 소비량은 {pred.json()}kW 입니다.")
 
